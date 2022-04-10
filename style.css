@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=League+Gothic&family=Open+Sans:wght@300&display=swap');
+*{
+   box-sizing: border-box;
+}
+body{
+
+    background-image:url("./image.jpg");
+    background-size: cover;
+    background-position: center center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    min-height: 100vh;
+    font-family: "Beau Rivage", "Open sans";
+    margin: 0;
+    
+       
+}
+
+h1 {
+    margin-left: 7.5rem;
+    align-items: center;
+    font-size:3rem;
+    margin-top: -17rem;
+    color: darkblue;
+
+}
+.countdown-container{
+    display: flex;
+    
+}
+
+.big-text{
+    line-height: 9%;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin:0 2rem;
+    color: aqua;
+} 
+.countdown-el{
+    font-size:3rem;
+    font-weight: bolder;
+    
+    text-align: center;
+    color: brown;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+    margin: 4rem;
+
+}
